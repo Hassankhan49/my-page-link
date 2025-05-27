@@ -1,1 +1,156 @@
-# my-page-link
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>this is web page </title>
+  <style>
+    .profile-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit:cover ;
+  margin-bottom: 5px;
+}
+
+.profile-name {
+  font-size: 22px;
+  font-family: 'Times New Roman';
+  color: #1c36a9;
+  font-weight: bold;
+  margin: 3px 0;
+  
+}
+
+.profile-desc {
+  font-size: 12px;
+  color: #1a09d9;
+  margin: 0;
+  font-family:'Segoe UI';
+}
+
+.emoji {
+  font-size: 18px;
+}
+
+    a {
+      text-decoration: none;
+    }
+    body {
+      background-color: hsl(217, 50%, 97%);
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    
+    .link-card {
+      display: flex;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      margin-bottom: 15px;
+      padding: 12px 16px;
+      border-radius: 15px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+
+    .link-card:hover {
+      transform: scale(1.03);
+    }
+
+    .link-card img {
+      width: 40px;
+      height: 40px;
+      margin-right: 15px;
+    }
+
+    .link-text {
+      font-size: 16px;
+      font-weight: 500;
+      color: #1a237e;
+    }
+.container {
+      padding: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="profile-header">
+  <img src="Hamid.png" alt="Profile Image" class="profile-img">
+  <h2 class="profile-name">5S KING</h2>
+  <p class="profile-desc">
+  Hello dear, we warmly welcome you to an exclusive journey of <strong>knowledge strategy</strong>,  <strong>paid classes</strong>, and smart techniques for <strong>loss recovery</strong> 📈. Join our community today on WhatsApp and unlock the full potential of guided learning and financial insight 💡.
+</p>
+
+ 
+</div>
+
+
+<div class="container">
+
+  <a href="https://wa.me/923407744685 " > 
+    <div class="link-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    <div class="link-text">WhatsApp Nomber</div>
+  </div>
+</a>
+
+  <a href="https://chat.whatsapp.com/ElxuQqm294hBJ636YZd3NV " > 
+    <div class="link-card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    <div class="link-text">Community</div>
+  </div>
+</a>
+
+
+
+   <a href = "https://www.tiktok.com/@tradewithhamido?_
+   r=1&_d=efgla27eb5e9i8&sec_uid=MS4wLjABAAAAojtZSp4RF
+   EPyUDo0X8VzsS8lb2B-nZyiOtytEwnoWzVIBOHk_CuBXd5b_LCss
+   mmU&share_author_id=7474276914183357448&sharer_language
+   =en&source=h5_m&u_code=ej1acgc251jafc&timestamp=1747849480&u
+   ser_id=7474276914183357448&sec_user_id=MS4wLjABAAAAojtZSp4RFE
+   PyUDo0X8VzsS8lb2B-nZyiOtytEwnoWzVIBOHk_CuBXd5b_LCssmmU&utm_so
+   urce=copy&utm_campaign=client_share&utm_medium=android&share_i
+   id=7503925042427660050&share_link_id=cc48b202-1d63-440a-a713-d
+   2a10591ce08&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2C
+   b7360&social_share_type=5&enable_checksum=1">
+  <div class="link-card">
+      <img src="HAmid.png" alt="TikTok" >
+      <div class="link-text">Tiktok</div>
+    </div>
+    </a>
+
+
+<!-- THE ABOVE CODING IS ENTERED FOR TIKTOK LINK DISPLAYED 
+     IN THE UNIQUE WAY TO VISIT ACCOUNT -->
+
+
+     <div class="link-card">
+      <img src="trad.png" alt="Quotex picture">
+      <div class="link-text">Quotex</div>
+    </div>
+
+    <a href="https://www.snapchat.com/add/gracesloveee?share_id=ZrL5Ir5HPNI&locale=en-US">
+       <div class="link-card">
+      <img src="snapchat.png" alt="snapchat">
+      <div class="link-text">Snapchat </div>
+    </div>
+    </a>
+
+      <a href="https://youtube.com/@5squotex?si=9j8yv6mUXeg5D1ro">
+       <div class="link-card">
+      <img src="u tube logo.png" alt=" U tube ">
+      <div class="link-text"> You Tube </div>
+    </div>
+    </a>
+
+    </div> <!-- end of the link centered container-->
+</body>
+</html>
